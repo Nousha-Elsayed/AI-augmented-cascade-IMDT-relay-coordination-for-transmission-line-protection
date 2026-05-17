@@ -3,6 +3,14 @@
 Coordinated overcurrent protection for an 11 kV radial feeder with an embedded Random Forest fault classifier.
 
 ---
+## Stack
+
+![MATLAB](https://img.shields.io/badge/MATLAB-Simulink-orange?logo=mathworks)
+![Python](https://img.shields.io/badge/Python-scikit--learn-blue?logo=python)
+
+**Solver:** ode23tb — 0.5 s window — fault injected at t = 0.1 s
+
+---
 
 ## What It Does
 
@@ -45,15 +53,6 @@ CTI ≥ 0.30 s across all cases. Zero false trips under normal load.
 - **Classes:** Normal, 3LG, SLG, LL, DLG
 - **Weighted F1-score:** 97.4% — overall accuracy > 99%
 - **Latency:** < 2 ms — advisory only, never overrides relay logic
-
----
-
-## Stack
-
-![MATLAB](https://img.shields.io/badge/MATLAB-Simulink-orange?logo=mathworks)
-![Python](https://img.shields.io/badge/Python-scikit--learn-blue?logo=python)
-
-**Solver:** ode23tb — 0.5 s window — fault injected at t = 0.1 s
 
 ---
 
