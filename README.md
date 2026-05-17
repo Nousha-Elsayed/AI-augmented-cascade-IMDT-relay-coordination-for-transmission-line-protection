@@ -29,6 +29,11 @@ Coordinated overcurrent protection for an 11 kV radial feeder with an embedded R
 | TDS | 0.25 | 0.25 |
 | Curve | IEC Very Inverse | IEC Very Inverse |
 | 50P Instantaneous | 2440 A | 3750 A |
+---
+
+## Time Coordination Curves
+<img width="1213" height="798" alt="image" src="https://github.com/user-attachments/assets/f0b70a58-0f5e-4b98-846c-2a14611e5a83" />
+
 
 ---
 
